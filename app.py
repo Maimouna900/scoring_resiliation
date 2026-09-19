@@ -1,7 +1,3 @@
-import streamlit as st
-st.title('🚗 Scoring de résiliation — Assurance Auto')
-st.write('Bonjour ! Mon premier modèle en ligne.') 
-
 import json, joblib
 import pandas as pd
 import streamlit as st
