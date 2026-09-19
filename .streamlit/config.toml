@@ -1,0 +1,14 @@
+# .streamlit/config.toml
+[theme]
+primaryColor = "#1f6422"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EAF3F8"
+textColor = "#1B1B1B"
+
+echo "# scoring_resiliation" >> README.md
+git init
+git add .
+git commit -m "Scoring résiliation : pipeline + app Streamlit"
+git branch -M main
+git remote add origin https://github.com/Maimouna900/scoring_resiliation.git
+git push -u origin main
